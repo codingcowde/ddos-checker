@@ -2,8 +2,9 @@
 A super simple Bash script designed to monitor and detect potential
 Distributed Denial of Service (DDoS) attacks on web server logs. The script analyzes
 Apache web server logs for suspicious traffic patterns and alerts administrators when
-potential DDoS attacks are detected. It allows for customization of detection parameters and
-can perform an action, like notifying an external system, upon detecting an attack.
+potential DDoS attacks are detected. 
+
+It allows for customization of detection parameters and can trigger a webhook, upon detecting an attack.
 
 ## Script Components
 check_logs() Function: The core function responsible for scanning Apache logs and
