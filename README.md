@@ -1,6 +1,5 @@
 # DDoS Attack Detection Script Documentation
-## Overview
-This DDoS Attack Detection Script is a Bash script designed to monitor and detect potential
+A super simple Bash script designed to monitor and detect potential
 Distributed Denial of Service (DDoS) attacks on web server logs. The script analyzes
 Apache web server logs for suspicious traffic patterns and alerts administrators when
 potential DDoS attacks are detected. It allows for customization of detection parameters and
